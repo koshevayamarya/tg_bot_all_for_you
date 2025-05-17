@@ -13,7 +13,7 @@ import logging
 import json
 
 
-BOT_TOKEN = "7289756303:AAGSPRCfyoa7_Hk7WcD3QkooSDfaOENvHjg"
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 MASKS_DATA = "masks.json"
@@ -174,7 +174,7 @@ async def handle_desired_effect(message: types.Message, state: FSMContext):
             response_ = (
                 f"🧴 {mask['name']}\n"
                 f"📝 {mask['description']}\n"
-                f"🔗 Ссылки: {', '.join([f'[{market}]({link})' for market, link in mask['market_links'].items()])}\n"
+                f"🔗 Ссылки: {', '.join([f'[{market}]({link})' for market, link in mask['market_links'].items()])}\n   "
             )
             try:  # Обрабатываем возможные ошибки при отправке фото
                 async with ChatActionSender.upload_photo(bot=message.bot, chat_id=message.chat.id):
