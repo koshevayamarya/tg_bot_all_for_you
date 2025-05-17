@@ -1,0 +1,115 @@
+    [
+      {
+        "name": "Маска для лица \"Laboratorium\"",
+        "skin_type": [
+          "Сухая",
+          "Нормальная"
+        ],
+        "effect": [
+          "Увлажнение"
+        ],
+        "skin_problem": [
+          "Шелушение",
+          "Воспаления"
+        ],
+        "description": "Она активно помогает коже после стрессов и повреждений.",
+        "ingredients": "церамиды, аргановое масло, масло тимьяна",
+        "image_url": "img/Маска для лица Laboratorium.jpeg",
+        "market_links":{
+          "Ozon": "https://ozon.ru/t/3LDEo5k",
+          "Wildberries": "https://www.wildberries.ru/catalog/20836214/detail.aspx?targetUrl=MS&size=53458396"
+        }
+      },
+      {
+        "name": "The U маска для лица \"Nourishing cream mask\"",
+        "skin_type": [
+          "Сухая",
+          "Жирная"
+        ],
+        "effect": [
+          "Увлажнение"
+        ],
+        "skin_problem": [
+          "Пигментация",
+          "Шелушение"
+        ],
+        "description": "Она устраняет ощущение стянутости, шелушение и раздражение.",
+        "ingredients": "д-пантенол, бисаболола, эфирное масло иланг-иланг, экстракты ягод, витамин Е",
+        "image_url": "img/The U маска для лица Nourishing cream mask.jpeg",
+        "market_links": {
+          "Ozon": "https://ozon.ru/t/KPOnmBK",
+          "Wildberries": "https://www.wildberries.ru/catalog/210916590/detail.aspx?targetUrl=GP&size=337355723"
+        }
+      },
+      {
+        "name": "Organic Kitchen маска для лица \"Укол красоты\"",
+        "skin_type": [
+          "Жирная",
+          "Сухая",
+          "Комбинированная",
+          "Нормальная"
+        ],
+        "effect": [
+          "Лифтинг"
+        ],
+        "skin_problem": [
+          "Пигментация",
+          "Шелушение",
+          "Морщины"
+        ],
+        "description": "Она повышает упругость и эластичность, разглаживает мелкие морщинки, делает контур лица более правильным и чётким.",
+        "ingredients": "растительный экстракт, пантенол, яблоко",
+        "image_url": "img/Organic Kitchen маска для лица Укол красоты.jpeg",
+        "market_links": {
+          "Ozon": "https://ozon.ru/t/N95gDB",
+          "Wildberries": "https://www.wildberries.ru/catalog/38329632/detail.aspx?targetUrl=MS&size=78411078"
+        }
+      },
+      {
+        "name": "Маска-перфектор от Maskoholic",
+        "skin_type": [
+          "Жирная",
+          "Сухая",
+          "Комбинированная",
+          "Нормальная"
+        ],
+        "effect": [
+          "Матирование",
+          "Подсушивание"
+        ],
+        "skin_problem": [
+          "Акне",
+          "Постакне",
+          "Пигментация"
+        ],
+        "description": " Глиняная маска борется с акне и черными точками, а также уменьшает следы постакне.",
+        "ingredients": "салициловая кислота, глина",
+        "image_url": "img/Маска-перфектор от Maskoholic.jpeg",
+        "market_links": {
+          "Ozon": "https://ozon.ru/t/nR9GEBE",
+          "Wildberries": "https://www.wildberries.ru/catalog/151986300/detail.aspx?targetUrl=MS&size=254477376"
+        }
+      },
+      {
+        "name": "Крио-маска от Compliment",
+        "skin_type": [
+          "Сухая"
+        ],
+        "effect": [
+          "Отшелушивание",
+          "Матирование",
+          "Подсушивание"
+        ],
+        "skin_problem": [
+          "Акне",
+          "Постакне"
+        ],
+        "description": "Это средство подарит Вашей коже натуральную красоту, непревзойденную мягкость и естественное сияние.",
+        "ingredients": "зеленая глина, масло Ши, лауретсульфат магния, масло оливы, ксантановая камедь, бисаболол, масло лаванды, эфирное масло мяты",
+        "image_url": "img/Крио-маска от Compliment.jpeg",
+        "market_links": {
+          "Ozon": "https://ozon.ru/t/jpLRv50",
+          "Wildberries": "https://www.wildberries.ru/catalog/9523100/detail.aspx?targetUrl=GP&size=31570135"
+        }
+      }
+    ]
