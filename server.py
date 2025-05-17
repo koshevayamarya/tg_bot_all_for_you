@@ -13,7 +13,7 @@ import logging
 import json
 
 
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+BOT_TOKEN = "7289756303:AAGSPRCfyoa7_Hk7WcD3QkooSDfaOENvHjg"
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 MASKS_DATA = "masks.json"
@@ -189,7 +189,7 @@ async def handle_desired_effect(message: types.Message, state: FSMContext):
             except Exception as e:
                 print(f"Ошибка при отправке маски {mask['name']}: {e}")
                 await message.answer(
-                    f"Ошибка при отправке маски {mask['name']}. Попробуйте позже.")  # Сообщаем пользователю об ошибке
+                    f"Ошибка при отправке маски {mask['name']}. Попробуйте позже.")
         await message.answer("Что делаем дальше?", reply_markup=create_final_menu())
     else:
         await message.answer("😔 К сожалению, подходящих масок не найдено.", reply_markup=create_final_menu())
@@ -208,7 +208,7 @@ async def handle_finish(message: types.Message):
 
 @dp.message(F.text == "🔄 Начать заново")
 async def handle_restart(message: types.Message, state: FSMContext):
-    await start_handler(message, state)  # Переход к начальному состоянию
+    await start_handler(message, state)
 
 
 @dp.message(F.text == "🔄 Новый подбор")
